@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello!! GIT') {
+            steps {
+                git 'https://github.com/devops-prasanna/demo.git'
+            }
+        }
+    }
+}
